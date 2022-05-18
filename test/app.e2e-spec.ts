@@ -28,7 +28,7 @@ describe('AppController (e2e)', () => {
         grpcPort: 'unknown port',
         restPort: 'unknown port',
         env: 'unknown environment',
-        message: 'Uncle Bob we love you',
+        message: 'Parfin we love you',
       });
   });
 });

@@ -60,7 +60,7 @@ $ npm run start:prod
   "grpcPort": "5000",
   "restPort": "3001",
   "env": "development",
-  "message": "Uncle Bob we love you"
+  "message": "Parfin we love you"
 }
 ```
 

@@ -7,7 +7,7 @@ export class HealthService {
   constructor(private configService: ConfigService) {}
 
   getStatus(): Health {
-    return this.buildHealth('Uncle Bob we love you', true);
+    return this.buildHealth('Parfin we love you', true);
   }
 
   private buildHealth(message: string, alive: boolean) {

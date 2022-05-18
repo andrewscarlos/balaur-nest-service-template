@@ -31,7 +31,7 @@ describe('HealthController', () => {
         grpcPort: 'unknown port',
         restPort: 'unknown port',
         env: process.env?.APPLICATION_ENV || 'unknown environment',
-        message: 'Uncle Bob we love you',
+        message: 'Parfin we love you',
       };
 
       expect(controller.getStatus()).toStrictEqual(expectedResponse);

@@ -28,7 +28,7 @@ describe('HealthService', () => {
       expectedResult.restPort = process.env?.REST_PORT || 'unknown port';
       expectedResult.env =
         process.env?.APPLICATION_ENV || 'unknown environment';
-      expectedResult.message = 'Uncle Bob we love you';
+      expectedResult.message = 'Parfin we love you';
       const result = service.getStatus();
       expect(result).toStrictEqual(expectedResult);
     });
