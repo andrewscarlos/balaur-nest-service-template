@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package health;
+
+service HealthService {
+    rpc GetStatus(GetStatusRequest) returns (Status);
+}
+
+message Status {
+    bool alive = 1;
+    string applicationName = 2;
+    string grpcPort = 4;
+    string restPort = 5;
+    string env = 6;
+    string message = 7;
+}
+
+message GetStatusRequest {}
